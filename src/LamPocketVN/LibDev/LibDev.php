@@ -3,7 +3,7 @@
 /**
  * LibDev
  * @API: 3.14.0
- * @version 0.0.1
+ * @version dev2
  */
 
 namespace LamPocketVN\LibDev;
