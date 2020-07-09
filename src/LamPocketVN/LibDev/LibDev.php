@@ -19,7 +19,7 @@ class LibDev
      */
     public static function getLPlayer(): LPlayer
     {
-        return LPlayer::class;
+        return new LPlayer();
     }
 
     /**
