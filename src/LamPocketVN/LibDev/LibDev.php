@@ -9,6 +9,7 @@
 namespace LamPocketVN\LibDev;
 
 use LamPocketVN\LibDev\LPlayer;
+use LamPocketVN\LibDev\LItem;
 use pocketmine\plugin\Plugin;
 use pocketmine\Server;
 
@@ -20,6 +21,11 @@ class LibDev
     public static function getLPlayer(): LPlayer
     {
         return new LPlayer();
+    }
+    
+    public static function getLItem(): LItem
+    {
+        return new LItem();
     }
 
     /**
