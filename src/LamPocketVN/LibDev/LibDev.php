@@ -3,8 +3,10 @@
 /**
  * LibDev
  * @API: 3.14.0
- * @version alpha-001
+ * @version alpha-002
  */
+
+declare(strict_types=1);
 
 namespace LamPocketVN\LibDev;
 
@@ -22,7 +24,7 @@ class LibDev
     {
         return new LPlayer();
     }
-    
+
     public static function getLItem(): LItem
     {
         return new LItem();
